@@ -14,6 +14,7 @@ Emergency alert system with locationg
 
 ### Dependencies Required
 `npm i` if package.json is included
+
 `npm install bcrypt dotenv ejs express express-flash express-session method-override mongoose passport passport-local uuid`
 
 
