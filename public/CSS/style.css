@@ -1,0 +1,229 @@
+.first-nav{
+    background-color: var(--secondary);
+}
+.Donate{
+    color: var(--primary);
+    background: rgba(99, 102, 241, 0.10);
+    border: none;
+}
+.Submit{
+    color: var(--secondary);
+    background-color: var(--primary);
+    border: none;
+}
+.first{
+    background-color: #008080;
+}
+.mini-hero{
+    width: 100%;
+    height: 40%;
+    padding-block: 4rem;
+    margin-left: 10rem;
+    
+}
+.we{
+    font-weight: 600;
+    margin-block: 3rem;
+}
+.sos-img-div{
+    justify-content: center;
+    width: 40%;
+    height: 20%;
+    background: rgba(160, 15, 15, 0.92);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.35);
+
+
+}
+.sos-img{
+    width: 100%;
+    height: 100%;
+    padding-block: 2rem;
+    padding-inline: 2rem; 
+}
+.hero-text{
+    font-weight: 500;
+}
+.stock{
+   width: 75%;
+   
+}
+@media only screen and (max-width:500px) {
+    .mini-hero{
+        width: 65%;
+        display: flex;
+        flex-direction: column-reverse;
+        margin-left: 0;
+    }
+    .first{
+        font-size: 1rem;
+    }
+    .stock{
+       display: none; 
+    }
+
+    .sos-img-div{
+        width: 100%;
+        height: 100%;
+        
+    }
+
+    .sec-con{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .third{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .sec1{
+        justify-content: center;
+        align-items: center;
+    }
+
+    .big{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .Therapist{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+    .main{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .list-divs{
+        display: flex;
+        flex-direction: column;
+        gap: 0rem;
+        justify-content: center;
+        align-items: center;
+        
+        
+    }
+    
+}
+
+.sec1{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.sec1 h1{
+    font-size: 1.5rem;
+    margin-block: 1rem;
+    font-weight: 500;
+    color: var(--dark);
+}
+.sec-con{
+    width: 80%;
+}
+.gop{
+    margin-top: 5rem;
+    border-radius: 0;
+    background-color: var(--primary);
+    font-size: 0.75rem;
+}
+.go{
+    border-radius: 0;
+    background-color: var(--primary);
+    font-size: 0.75rem;
+}
+.sec1 .card-text{
+    font-size: 0.78rem;
+}
+.secc2{
+    color: var(--dark);
+    
+}
+.sec2 .card{
+    border: none;
+}
+.sec2 h1{
+    font-size: 1.5rem;
+    margin-top: 4rem;
+    font-weight: 500;
+    color: var(--dark);
+}
+.secc3{
+    border-radius: 0;
+    color: var(--dark);
+}
+.sec3 h1{
+        font-size: 1.5rem;
+        margin-block: 1rem;
+        font-weight: 500;
+        color: var(--dark);
+
+}
+.sec4{
+    background-color: var(--secondary);
+    color: var(--dark);
+    
+.secc4{
+    background-color: var(--secondary);
+    
+}
+
+}
+.sec4 p{
+    font-size: .6rem;
+}
+.sec4 input{
+    border: 0;
+}
+.hear{
+    background-color: var(--secondary);
+    color: #505977;
+}
+.Love{
+    background-image: url("/SaCure-Project/Images/Rectangle\ 5.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.secc5{
+    height: 130%;
+}
+.sec5 h1{
+        font-size: 1.5rem;
+        
+        font-weight: 500;
+        color: var(--dark);
+}
+.foot{
+    background-color: #008080;
+}
+.foot a{
+    color: #fff;
+}
+.foot ul{
+    word-spacing: 7px;
+    font-weight: 400;
+}
+input{
+    width: 100%;
+    padding: 9px 20px;
+    margin: 8px 0;
+    color: #fff;
+    border: 0;
+    
+}
+.sign{
+    padding: 9px 20px;
+    margin: 8px 0;
+}
+.list-divs{
+    gap: 9rem;
+}

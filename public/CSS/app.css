@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Aclonica&family=Kumbh+Sans:wght@200;300;400;500;600;700&display=swap');
+:root{
+    --primary: #008080;
+    --secondary :#FFF;
+    --aclon:'Aclonica', sans-serif;
+    --kumbh:'Kumbh Sans', serif;
+    --dark:#2A254B;
+}
+*{
+    padding: 0; 
+    margin: 0;
+    box-sizing: border-box;
+    font-family: var(--kumbh);
+    
+}
+li{
+    list-style: none;
+    
+}
+a{
+    text-decoration: none;
+    color: #726E8D;
+}
+body{
+    background:  #F9F9F9;
+}
+
+                   

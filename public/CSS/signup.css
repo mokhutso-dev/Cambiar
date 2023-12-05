@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Caslon+Display&family=Nunito+Sans:opsz,wght@6..12,300&family=Poppins:wght@300;600&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+div {
+    text-align: center;
+    border-style: solid;
+    border-width: 2px;
+    margin-left: 190px;
+    margin-right: 190px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-image: url("/Rectangle 42.jpg");
+    border: none;
+}
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(42, 42, 177);
+    font-size: 50px;
+}
+p{
+    font-size: 20px;
+    font-weight: 600px;
+}
+
+
+
+form{
+    margin: 20px;
+    background-color: #fff;
+}
+.let{
+    margin-block: 0.4rem;
+    padding-block: 2rem;
+}
+.btn {
+    border-radius:5px;
+    border-style:none;
+    padding-left: 1em;
+    padding-right: 1em;
+    padding-top: 0.8em;
+    padding-bottom: 0.8em;
+    width:15em; 
+}
+input{
+    border-radius: 10px;
+    width: 40%;
+    padding-block: 0.5rem;
+    border: none;
+    box-shadow: 0px 1px 1px;
+
+
+}
+.check{
+ box-shadow: none;   
+}
+.go{
+    border-radius: 0;
+    background-color: #008080;
+    font-size: 0.75rem;
+}

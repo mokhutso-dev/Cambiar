@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Caslon+Display&family=Nunito+Sans:opsz,wght@6..12,300&family=Poppins:wght@300;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#container {
+    background-color: #FFFFFF;
+    height: 100vh;
+    margin: 2rem;
+    border: 0.5rem solid #FFFFFf;
+    padding: 2.5rem;
+}
+
+h1 {
+    color: #0B5E68;
+    font-family: poppins, sans-serif;
+    font-size: 2rem;
+    font-weight: 500;
+    margin-top: 0.8rem;
+}
+
+form {
+    width: 50%;
+    background-color: #0B5E68;
+    align-items: center;
+    border: none; 
+    border-radius: 0.3rem;
+    padding-block: 2rem;
+}
+
+input {
+    border-radius: 10px;
+    width: 50%;
+    padding-block: 0.5rem;
+    border: none;
+    box-shadow: 0px 1px 1px;
+    background-color: #FFFFFF;
+    padding: 0.3rem;
+    margin: 0.3rem;
+    
+}
+.sign{
+    margin-left: 13rem;
+}
+p a {
+    text-decoration: none;
+    color: #FFF;
+}
+
+p {
+    color: #FFF;
+    font-family: poppins, sans-serif;
+    font-size: 1rem;
+    font-weight: 300;
+    
+}
+ span {
+    font-size: 1rem;
+    font-weight: 300;
+ }
+
+ .go{
+    margin-left: 7rem;
+    border-radius: 0;
+    background-color: #fff;
+    padding-block: .2rem;
+    margin-block: 0.5rem;
+    font-size: 1rem;
+}
+.up{
+    margin-right: 7rem;
+    border-radius: 0;
+    color: #FFF;
+    padding-block: .2rem;
+    margin-block: 0.5rem;
+    font-size: 1rem;  
+}
+
+/* 
+
+button {
+    border-radius: 0.8rem;
+    background-color: #0B5E68;
+    border: none;
+    color: #FFFFFF;
+    width: 10%;
+    height: 8%;
+} */
