@@ -1,3 +1,6 @@
+### About
+Emergency alert system with locationg
+
 ## How to activate under DEV
 
 - Ensure you have nodejs installed in your local machine (PC)
@@ -10,12 +13,10 @@
 - In your root terminal enter : `npm run dev`   -- OR --      `npm start`
 
 ### Dependencies Required
-`npm i`
+`npm i` if package.json is included
+`npm install bcrypt dotenv ejs express express-flash express-session method-override mongoose passport passport-local uuid`
+
 
 ## Author
 
 - Mokhutso Manaswe
-
-TODO:
-
-- Have a connect send to other page
